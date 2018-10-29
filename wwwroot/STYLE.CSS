@@ -1,0 +1,114 @@
+A
+{
+TEXT-DECORATION: none;
+}
+A:hover
+{
+COLOR: #0099FF;
+}
+A:link {
+color: #205064;
+}
+A:visited {
+color: #006699;
+}
+BODY
+{
+FONT-FAMILY: ËÎÌו;
+FONT-SIZE: 9pt;
+text-decoration: none;
+line-height: 150%;
+background-color: #FBFDFF;
+}
+TD
+{
+FONT-FAMILY:ËÎÌו;
+FONT-SIZE: 9pt;
+}
+Input
+{
+FONT-SIZE: 9pt;
+HEIGHT: 20px;
+}
+Button
+{
+FONT-SIZE: 9pt;
+HEIGHT: 20px; 
+}
+Select
+{
+FONT-SIZE: 9pt;
+HEIGHT: 20px;
+}
+.border
+{
+border: 1px solid #CCCCCC;
+}
+.border2
+{
+background:#fef8ed;
+BORDER-RIGHT: #999999 1px solid; 
+BORDER-LEFT: #999999 1px solid
+}
+.title
+{
+	background:#f6f6f6;
+
+}
+.title_left
+{
+background:url(images/left_bg.gif);
+}
+.title_right
+{
+background:url(images/right_bg.gif);
+}
+.title_main
+{
+background:url(Images/jiaodian_bg.gif);
+}
+.tdbg{
+background:#FFFFFF;
+line-height: 120%;
+}
+.tdbg_left{
+background:#fef8ed;
+line-height: 150%;
+}
+.tdbg_right{
+background:#EAF1FB;
+line-height: 150%;
+}
+.tdbg_main{
+background:#ffffff;
+line-height: 150%;
+}
+.topborder
+{
+border-right: 1px solid #6687BA;
+border-left: 1px solid #6687BA;
+border-bottom: 1px solid #6595D6;
+width: 760px;
+}
+.nav_top
+{
+background-image: url(Skin/1/topbg.gif);
+}
+.nav_bottom
+{
+background-image: url(Skin/1/bottombg.gif);
+}
+.nav_menu
+{
+background:url(Skin/1/topBar_bg.gif);
+}
+.menu
+{
+background-color: #F0F9FF;
+width:97%;
+border: 1px;
+}
+td.MenuBody
+{
+background-color: #F0F9FF;
+}

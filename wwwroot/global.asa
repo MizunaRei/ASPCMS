@@ -1,0 +1,38 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+sub Application_OnStart
+End sub
+Sub Application_OnEnd
+End Sub
+Sub Session_OnStart
+Session.timeout=5
+Application.Lock
+application("zzzonline")=application("zzzonline")+1
+Application.Unlock
+End sub
+
+Sub Session_OnEnd
+Application.Lock
+Application("zzzonline")=application("zzzonline")-1
+Application.Unlock
+End sub
+</SCRIPT>
+
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+sub Application_OnStart
+End sub
+Sub Application_OnEnd
+End Sub
+Sub Session_OnStart
+Session.timeout=5
+Application.Lock
+application("zzzonline")=application("zzzonline")+1
+Application.Unlock
+End sub
+
+Sub Session_OnEnd
+Application.Lock
+Application("zzzonline")=application("zzzonline")-1
+Application.Unlock
+End sub
+</SCRIPT>
+

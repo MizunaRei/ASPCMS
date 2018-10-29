@@ -1,0 +1,116 @@
+[03/10/2003] Version 1.00
+- Initial release
+
+[05/27/2003] Version 1.5
+- Complete rebuild to support ASP
+
+[05/30/2003] Version 1.51
+- Fixed security problem in CWD: directory traversal (thanks to: Dr. Insane!)
+- A few small improvements to prevent DOS attacks.
+
+[07/03/2003] Version 1.52
+- Fixed: Directory Traversal Vulnerability (thanks to: Arnaud Jacques aka Scrap!)
+- Added System Tray icon.
+
+[07/15/2003] Version 1.53
+- Fixed: Content-Length in header (wrong file size).
+
+[12/25/2003] Version 1.54
+- Improved cookie and session enumeration.
+- Fixed: settings are now correctly saved on exit.
+- Fixed: several bugs in session management.
+
+[02/22/2004] Version 1.60
+- Fixed: Memory leak in script execution.
+- Added: Limit to number of entries in log window, to prevent large memory usage.
+- Added: Context menu with a few log window options: Copy contents, Delete contents, Save to file.
+- Added: Experimental support for SSL (Secure Socket Layer). See readme.txt for more details.
+
+[03/14/2004] Version 1.61
+- Fixed: Exceptions objects (created by incomplete transfers) in SendData were not deallocated (memory leaks...)
+- Fixed: Bug in file transfer that cased poor performance.
+- Log file class completely rewritten in MFC.
+
+[04/22/2004] Version 1.62
+- Fixed: Permission check for root failed under some circumstances (thanks to: Michael).
+- Added: Option to disable directory listings.
+
+[04/23/2004] Version 1.63
+- Fixed: Port numbers other than 80 or 443 were not correctly saved (thanks to: Florent).
+
+[08/04/2004] Version 2.00
+- Completely rewritten Form and Query collections based on IRequestDirectory (and IStringList!)
+- Completely rewritten Session and Application collections based on IVariantDirectory.
+- Completely rewritten the server model, to support other extensions in the future.
+- Completely rewritten ASP parser to support server sides script (<SCRIPT RUNAT=SERVER>), global.asa, IIS directives and <OBJECT>.
+- All basic ASP functionality is implemented, see help for more details.
+- Improved Server Side Includes support
+- Improved ASP error handling.
+- Improved performance in several places.
+- SSL support can now be switched off during compile.
+- Added a few simple statistics (Tools menu).
+- Added Advanced page in settings. This page contains some advanced server settings which can be used to optimize performance.
+- Added 'Disable screen output' option in Settings/Logging.
+- Added ASP Cache Manager: This will keep preprocessed script in memory, so the next time the page will load faster. 
+- Added Listen backlog option: If the server is rejecting requests with heavy traffic, increase this value (see IIS ListBacklog parameters for more detials).
+- Added support for global.asa events.
+- And much more 'behind the scenes' changes...
+
+[08/11/2004] Version 2.01
+- Fixed: Bug in Cookies.Expires method.
+- Added: Support for XP themes.
+
+[08/25/2004] Version 2.1
+- Fixed: Response.Write() now correctly handles Null parameter.
+- Fixed: Problems with large form collections.
+- Added: Support for Script debugging! See help file for more details.
+
+[09/04/2004] Version 2.2
+- Added: IScriptingContext interface implemented (for extension DLL support)
+- Added: OnStartPage event is now called for objects created with Server.CreateObject().
+- Added: OnEndPage event is now called for objects created with Server.CreateObject().
+- Fixed: Incorrect reference counting for ASP objects.
+
+[11/10/2004] Version 2.3
+- Fixed: Improved MIME type table.
+- Fixed: URLs containing encoded '&' characters failed.
+- Added: IP Filter to block or allow only specific IP addresses.
+
+[03/10/2005] Version 2.4
+- Added: OnStartPage and OnEndPage events are now also fired for GLOBAL.ASA and ServerContext is now 'static' for application object.
+- Added: Some extra MIME files types.
+- Fixed: Removed ServerObject limitations.
+- Fixed: Various small issues.
+
+[04/04/2005] Version 2.5
+- Fixed: Problems with nested Server Sides Includes.
+- Added: Support for binary upload (data transfer has been completely rewritten).
+- Added: Support for IStream in Request object (used by MSXML)
+- Added: Commandline options: /Config:settings.ini (for an alternative configuration file)
+- Added: Certificate Wizard for easier certificate management.
+
+[04/07/2005] Version 2.5.1
+- Fixed: Several Server.CreateObject() improvements.
+
+[04/30/2005] Version 2.6
+- Added: Support for IStream in Response object.
+- Copyrights updated.
+
+[05/20/2005] Version 2.6.1
+- Fixed: MapPath problems.
+- Fixed: Problems with paths that didn't end with a slash
+- Fixed: IP filter did not correctly validate IP ranges.
+
+[06/08/2005] Version 2.6.2
+- Fixed: Deleted cookies bug.
+
+[08/08/2005] Version 2.6.3
+- Fixed: Small caching tweak
+- Added: Full URL string is now logged (including querystring).
+- Added: Online support link
+
+[08/22/2005] Version 2.7
+- Moved all advanced features to Quick 'n Easy Web Server.
+
+[01/01/2006] Version 2.7.2
+- Fixed: Startup problems due to date init.

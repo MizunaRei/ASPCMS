@@ -1,0 +1,38 @@
+BODY {
+	FONT-SIZE: 12px;
+	FONT-FAMILY:  "ËÎÌו";
+	background-color: #F5FAFE;
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	line-height: 200%;
+	color: #333333;
+
+}
+.table {
+	background-color: #FFFFFF;
+	border: 1px solid #82ADCA;
+}
+.td {
+	height:20px;
+	background-color: #EFF8FE;
+	padding: 1px;
+	font-size: 12px;
+}
+.td2 {
+	height:20px;
+	background-color: #83AED6;
+	padding: 1px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.title1 {
+	font-size: 12px;
+	color: #002B84;
+	letter-spacing: 5px;
+	padding-top: 14px;
+}
+td {
+	font-size: 12px;
+}

@@ -1,0 +1,39 @@
+        <form name='CourseAdd' action='Admin_Course.asp' method='post' >
+          <% 	call  College()	%>
+          <% call StudentClassName() %>
+          &nbsp;&nbsp;<br/>
+          <% call StudentClassYear() %>
+          <% call StudentClassNumber() %>
+          (本专业只有一个班的选"01")
+          <input name="TeacherName" type="hidden" id="TeacherName" value='<%=session("AdminTeacherName")%>'>
+          <input   type=submit value="添加" name=CourseAdd >
+        </form>
+班级学院下拉列表
+
+<input   type=submit value='删除此行' name='CourseDel<%=rsCourseList("CourseListID")%>' >
+删课表
+
+
+'count()  sql 用法
+Set rsUser=Server.CreateObject("Adodb.RecordSet")
+	sqlUser="select * from " & db_User_Table & " where " & db_User_ID & ">=" & BeginID & " and " & db_User_ID & "<=" & EndID
+	rsUser.Open sqlUser,Conn_User,1,3
+	do while not rsUser.eof
+		set trs=Conn.execute("select count(ArticleID) from Article where Editor='" & rsUser(db_User_Name) & "'")
+		if isNull(trs(0)) then
+			rsUser(db_User_ArticleCount)=0
+		else
+			rsUser(db_User_ArticleCount)=trs(0)
+		end if
+		set trs=Conn.execute("select count(ArticleID) from Article where Passed=True and Editor='" & rsUser(db_User_Name) & "'")
+		if isNull(trs(0)) then
+			rsUser(db_User_ArticleChecked)=0
+		else
+			rsUser(db_User_ArticleChecked)=trs(0)
+		end if
+		rsUser.update
+		rsUser.movenext
+	loop
+	rsUser.close
+	set rsUser=nothing
+	call WriteSuccessMsg("已经成功将用户数据进行了更新！")

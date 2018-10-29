@@ -1,0 +1,81 @@
+INPUT.smallInput {	FONT-WEIGHT: normal; FONT-SIZE: 9pt; BACKGROUND: #ffffff; FONT-STYLE: normal; HEIGHT: 16px; FONT-VARIANT: normal
+}
+td {  font-family: "宋体"; font-size: 12px;color: #000000; text-decoration: none}
+.top {  font-family: "宋体"; font-size: 9pt; color: #000000; text-decoration: none;}
+a:link       { text-decoration: none; color: #000000; font-family: 宋体 ;line-height: 18px}
+a:visited    { text-decoration: none; color: #000000; font-family: 宋体 ;line-height: 18px}
+a:hover      { text-decoration: underline; color: #cc0000;line-height: 18px }
+TD
+{
+	FONT-FAMILY: "宋体";
+	FONT-SIZE: 9pt;
+	color: #000000;
+
+}
+.title1
+{
+	background-color: #99bb80;
+}
+.title
+{
+	background-color: #99bb80;
+}
+.border
+{
+	border: 1px; 
+	color: #000000;
+
+
+}
+.drop{
+      filter:blur(add=1,direction=120,strength=2);
+	  color: #000000;
+      }
+.tdbg{
+	background-image: url(images/bg4.gif);
+	color: #000000;
+}
+.topbg {
+	background-image: url(images/dot.gif);
+	color: #000000;
+}
+.bottombg{
+	background-image: url(images/dot.gif);
+	color: #000000;
+}
+
+td.TableBody1
+{
+background-color: #000000;
+}
+
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #FF5918;
+color: #ffffff;
+}
+Button
+{
+	FONT-SIZE: 9pt;
+	HEIGHT: 20px; 
+}
+Select
+{
+	FONT-SIZE: 9pt;
+	color: #000000;
+	HEIGHT: 20px;
+
+}
+Input
+{
+	FONT-SIZE: 9pt;
+	color: #000000;
+	HEIGHT: 20px;
+
+}
+.editorword {  font-family: "宋体"; font-size: 14px; line-height: 22px; color: #000000; text-decoration: none}
+.reword {  font-family: "宋体"; font-size: 12px; line-height: 18px; color: #000000; text-decoration: none}
+.text {  font-family: "宋体"; font-size: 13px; line-height: 17px}
+.idpwinput {  font-family: "宋体"; font-size: 9pt; color: #000000; text-decoration: none; background-color: #FFFFFF; border: #000000; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}

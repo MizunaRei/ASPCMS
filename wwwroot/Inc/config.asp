@@ -1,0 +1,44 @@
+<%
+Const SiteName="两课教学"        '网站名称
+Const SiteTitle="university人文学院两课教学网"        '网站标题
+Const SiteUrl="http://202.204.115.221/lk"        '网站地址
+Const LogoUrl="http://renwen.university.edu.cn/images/top.jpg"        'Logo地址
+Const BannerUrl="Http://renwen.university.edu.cn/NewImages/Banner.jpg"        'Banner地址
+Const WebmasterName="两课教学"        '站长姓名
+Const WebmasterEmail="86277298@qq.com"        '站长信箱
+Const Copyright="版权所有 Copyright&copy; 2006 <a href='http://renwen.university.edul.cn'>university人文学院</a>"        '版权信息
+Const ShowPopMenu="No"        '后台是否显示右键菜单
+Const ShowSiteChannel="Yes"        '是否显示网站频道
+Const ShowMyStyle="No"        '是否显示自选风格
+Const ShowClassTreeGuide="No"        '是否使用树状导航菜单
+Const EnableArticleCheck="Yes"        '是否启用文章审核功能
+Const EnableGuestCheck="Yes"        '是否启用留言审核功能
+Const EnableUploadFile="Yes"        '是否开放文件上传
+Const EnableSaveRemote="No"        '是否保存远程图片到本地
+Const EnableUserReg="Yes"        '是否允许新用户注册
+Const EmailCheckReg="No"        '新用户注册是否需要邮件验证
+Const AdminCheckReg="No"        '新用户注册是否需要管理员认证
+Const EnableLinkReg="No"        '是否开放友情链接申请
+Const PopAnnounce="No"        '是否弹出公告窗口
+Const HitsOfHot=50        '热门文章点击数
+Const SessionTimeout=50        'Session会话的保持时间
+Const CommentPurview=999        '发表评论的权限
+Const MailObject="Jmail"        '邮件发送组件
+Const MailServer="mail.21cn.net"        '用来发送邮件的SMTP服务器
+Const MailServerUserName="antishy"        '登录用户名
+Const MailServerPassWord="feisukeji"        '登录密码
+Const MailDomain="21cn.net"        '域名
+Const MaxFileSize=2048        '上传文件大小限制
+Const SaveUpFilesPath="UploadFiles"        '存放上传文件的目录
+Const UpFileType="rar|gif|jpg|bmp|asp|swf|exe|mid|mp3|doc|pdf|caj|ppt|xls"        '允许的上传文件类型
+Const DelUpFiles="Yes"        '删除文章时是否同时删除文章中的上传文件
+Const ChargeType_999=2        '注册用户的默认计费方式
+Const UserPoint_999=100        '注册用户的默认可用点数
+Const ValidDays_999=200        '注册用户的默认有效期
+Const ChargeType_99=1        '收费用户的默认计费方式
+Const UserPoint_99=500        '收费用户的默认可用点数
+Const ValidDays_99=30        '收费用户的默认有效期
+Const ChargeType_9=1        'VIP用户的默认计费方式
+Const UserPoint_9=5000        'VIP用户的默认可用点数
+Const ValidDays_9=300        'VIP用户的默认有效期
+%>

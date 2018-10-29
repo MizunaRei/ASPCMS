@@ -1,0 +1,295 @@
+/*
+Design by Free CSS Templates
+http://renwen.university.edu.cn
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #d2d877 url(images_inflight/img01.gif) repeat-x;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6995B7;
+	
+}
+
+form {
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+h1, h2, h3 {
+	color: #5A82D4;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+	text-align: justify;
+	line-height: 1.8em;
+}
+
+p {
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+}
+
+ol {
+	margin-left: 3em;
+}
+
+ol li {
+}
+
+a {
+	text-decoration: none;
+	color: #A03D3D;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #5A82D4;
+}
+
+img {
+	border: none;
+}
+
+/* Boxed Style */
+
+.boxed {
+	margin-bottom: 1.5em;
+	background: url(images_inflight/img05.gif) no-repeat right bottom;
+}
+
+.boxed .title {
+	padding-left: 10px;
+}
+
+.boxed .content {
+	padding: 20px;
+	background: url(images_inflight/img04.gif) no-repeat;
+}
+
+/* Logo */
+
+#logo {
+	position: relative;
+	width: 580px;
+	height: 55px;
+	margin: 0 auto;
+}
+
+#logo h1 {
+	float: left;
+	padding: 30px 0 0 0;
+	font-size: 2em;
+}
+
+#logo h1 span {
+	font-weight: normal;
+	font-style: italic;
+}
+
+#logo h2 {
+	float: right;
+	padding: 40px 0 0 0;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+#logo a {
+	color: #5A82D4;
+}
+
+/* Splash */
+
+#splash {
+	width: 600px;
+	height: 280px;
+	margin: 0 auto;
+	padding: 15px 20px 20px 20px;
+	background: url(images_inflight/img02.gif) no-repeat;
+}
+
+/* Menu */
+
+#menu {
+	width: 600px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#menu a:hover {
+}
+
+/* Content */
+
+#content {
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* Content > Main */
+
+#main {
+	float: right;
+	width: 400px;
+}
+
+#main .boxed .title {
+	padding-left: 20px;
+	font-weight: normal;
+}
+
+/* Content > Main > Example */
+
+#example {
+}
+
+/* Content > Main > Welcome */
+
+#welcome {
+}
+
+/* Content > Sidebar */
+
+#sidebar {
+	float: left;
+	width: 180px;
+}
+
+#sidebar .boxed .title {
+	font-size: 1.2em;
+}
+
+#sidebar .boxed .content {
+	padding: 10px;
+}
+
+/* Content > Sidebar > Login */
+
+#login {
+}
+
+#login label {
+	display: block;
+}
+
+#login #inputtext1, #login #inputtext2 {
+	width: 140px;
+	margin-bottom: .5em;
+	padding: 2px 5px;
+	border: 1px solid #CCCCCC;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+
+#login #inputsubmit1 {
+	float: right;
+	margin-right: 7px;
+	font: normal x-small "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#login p {
+	margin: 0;
+	padding-top: .2em;
+	font-size: x-small;
+}
+
+/* Content > Sidebar > Updates*/
+
+#updates {
+}
+
+#updates ul {
+	margin: 0;
+	list-style: none;
+}
+
+#updates li {
+	margin-bottom: 1em;
+}
+
+#updates h3 {
+	font-size: x-small;
+}
+
+#updates p {
+	font-size: x-small;
+}
+
+/* Content > Sidebar > Partners*/
+
+#partners {
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 580px;
+	text-align: justify;
+	margin: 0 auto;
+	padding: 20px;
+	background: url(images_inflight/img04.gif) no-repeat;
+}
+
+#footer p {
+	margin: 0;
+	font-size: x-small;
+}
+
+/* Footer > Legal */
+
+#legal {
+}
+
+/* Footer > Links */
+
+#links {
+}
