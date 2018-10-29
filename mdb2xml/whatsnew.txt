@@ -1,9 +1,0 @@
-MDB2XML - Programmed by Pablo van der Meer
-
-[20/01/2003] Version 1.01
-- Initial release
-
-[09/02/2003] Version 1.02
-- '<', '>' and '&' are now converted to '&lt;', '&gt:' and '&amp;' (thanks for bug report: Jan Arvidsson)
-
-
